@@ -45,12 +45,12 @@ Short story about stepping out of the frame, framed into another story.
     }
     </style>
     <div class="frameset">
-        <a href="/img/brief_6_frames/fhd/1.jpg" target="_blank"><img class="frame" src="/img/brief_6_frames/1.jpg" alt="Creep to Grapher"></a>
-        <a href="/img/brief_6_frames/fhd/2.jpg" target="_blank"><img class="frame" src="/img/brief_6_frames/2.jpg" alt="Creep to Grapher"></a>
-        <a href="/img/brief_6_frames/fhd/3.jpg" target="_blank"><img class="frame" src="/img/brief_6_frames/3.jpg" alt="Creep to Grapher"></a>
-        <a href="/img/brief_6_frames/fhd/4.jpg" target="_blank"><img class="frame" src="/img/brief_6_frames/4.jpg" alt="Creep to Grapher"></a>
-        <a href="/img/brief_6_frames/fhd/5.jpg" target="_blank"><img class="frame" src="/img/brief_6_frames/5.jpg" alt="Creep to Grapher"></a>
-        <a href="/img/brief_6_frames/fhd/6.jpg" target="_blank"><img class="frame" src="/img/brief_6_frames/6.jpg" alt="Creep to Grapher"></a>
+        <a href="img/brief_6_frames/fhd/1.jpg" target="_blank"><img class="frame" src="img/brief_6_frames/1.jpg" alt="Creep to Grapher"></a>
+        <a href="img/brief_6_frames/fhd/2.jpg" target="_blank"><img class="frame" src="img/brief_6_frames/2.jpg" alt="Creep to Grapher"></a>
+        <a href="img/brief_6_frames/fhd/3.jpg" target="_blank"><img class="frame" src="img/brief_6_frames/3.jpg" alt="Creep to Grapher"></a>
+        <a href="img/brief_6_frames/fhd/4.jpg" target="_blank"><img class="frame" src="img/brief_6_frames/4.jpg" alt="Creep to Grapher"></a>
+        <a href="img/brief_6_frames/fhd/5.jpg" target="_blank"><img class="frame" src="img/brief_6_frames/5.jpg" alt="Creep to Grapher"></a>
+        <a href="img/brief_6_frames/fhd/6.jpg" target="_blank"><img class="frame" src="img/brief_6_frames/6.jpg" alt="Creep to Grapher"></a>
     </div>
 </div>
 
