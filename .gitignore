@@ -1,0 +1,21 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jekyll build directory
+site/_site/
+site/.jekyll-cache/
+site/.jekyll-metadata
+
+# Node modules (if any)
+node_modules/
+
+# Editor directories and files
+.idea/
+.vscode/*
+!.vscode/tasks.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

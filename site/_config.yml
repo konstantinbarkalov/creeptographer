@@ -2,8 +2,8 @@ title: Creeptographer
 description: A movie with line yet to be written
 baseurl: "/creeptographer"
 url: "https://konstantinbarkalov.github.io"
-version: "0.0.0.a"
-last_updated: 2023-06-22
+version: "0.0.0.b"
+last_updated: 2025-06-21
 
 # Build settings
 markdown: kramdown

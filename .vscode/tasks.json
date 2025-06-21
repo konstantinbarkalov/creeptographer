@@ -1,0 +1,57 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Setup Version Auto-Update",
+            "type": "shell",
+            "windows": {
+                "command": ".\\setup-hooks.bat"
+            },
+            "linux": {
+                "command": "./setup-hooks.sh"
+            },
+            "osx": {
+                "command": "./setup-hooks.sh"
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "group": "none",
+            "problemMatcher": []
+        },
+        {
+            "label": "Remove Version Auto-Update",
+            "type": "shell",
+            "windows": {
+                "command": ".\\unsetup-hooks.bat"
+            },
+            "linux": {
+                "command": "./unsetup-hooks.sh"
+            },
+            "osx": {
+                "command": "./unsetup-hooks.sh"
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "group": "none",
+            "problemMatcher": []
+        },
+        {
+            "label": "Bump Version Manually",
+            "type": "shell",
+            "command": "node",
+            "args": [
+                "./scripts/update-version.js"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "group": "none",
+            "problemMatcher": []
+        }
+    ]
+}
