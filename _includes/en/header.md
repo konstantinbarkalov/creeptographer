@@ -1,4 +1,4 @@
-# CREEPTOGRAPHER. A moovie with line yet to be written. (v0.0.0.a)
+# CREEPTOGRAPHER. A moovie with line yet to be written. (v{{ site.version }})
 
 Short story about stepping out of the frame, framed into another story.
 

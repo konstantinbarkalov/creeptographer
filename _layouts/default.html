@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>      
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/github-markdown.css">
+    <title>{{ page.title }}</title>        <link rel="stylesheet" href="{{ site.baseurl }}/css/github-markdown.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/production-package.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/project-presentation.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/language-selector.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/footer.css">
     {% if page.lang == "th" %}
     <style>
         /* Optional Thai font stack */
@@ -17,10 +17,24 @@
     </style>
     {% endif %}
 </head>
-<body>
-    <main>
+<body>    <main>
         {% include language-selector.html %}
         {{ content }}
     </main>
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p class="version-info">
+                {% if page.lang == "en" %}
+                    Version: {{ site.version }} | Last updated: {{ site.last_updated }}
+                {% elsif page.lang == "ru" %}
+                    Версия: {{ site.version }} | Последнее обновление: {{ site.last_updated }}
+                {% elsif page.lang == "th" %}
+                    เวอร์ชัน: {{ site.version }} | อัปเดตล่าสุด: {{ site.last_updated }}
+                {% else %}
+                    Version: {{ site.version }} | Last updated: {{ site.last_updated }}
+                {% endif %}
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
