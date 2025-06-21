@@ -5,3 +5,35 @@ url: ""
 
 # Build settings
 markdown: kramdown
+
+# Multilingual settings
+languages:
+  - code: en
+    name: English
+    default: true
+  - code: ru
+    name: Русский
+  - code: th
+    name: ไทย
+
+# Default settings
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: "en"
+    values:
+      lang: "en"
+      lang_name: "EN"
+  - scope:
+      path: "ru"
+    values:
+      lang: "ru"
+      lang_name: "RU"
+  - scope:
+      path: "th"
+    values:
+      lang: "th"
+      lang_name: "TH"

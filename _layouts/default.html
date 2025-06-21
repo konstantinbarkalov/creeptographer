@@ -1,15 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.lang | default: 'en' }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>      
-    <link rel="stylesheet" href="css/github-markdown.css">
-    <link rel="stylesheet" href="css/production-package.css">
-    <link rel="stylesheet" href="css/project-presentation.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/github-markdown.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/production-package.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/project-presentation.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/language-selector.css">
+    {% if page.lang == "th" %}
+    <style>
+        /* Optional Thai font stack */
+        body {
+            font-family: 'Noto Sans Thai', 'Sarabun', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        }
+    </style>
+    {% endif %}
 </head>
 <body>
     <main>
+        {% include language-selector.html %}
         {{ content }}
     </main>
 </body>

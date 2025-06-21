@@ -1,0 +1,6 @@
+<div class="language-selector">
+  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+  {% for page in pages %}
+    <a href="{{ site.baseurl }}{{ page.url }}" class="lang-link {% if page.lang == site.active_lang %}active{% endif %}">{{ page.lang_name }}</a>
+  {% endfor %}
+</div>

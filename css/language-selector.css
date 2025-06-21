@@ -1,0 +1,25 @@
+/* Language selector styles */
+.language-selector {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eaecef;
+}
+
+.lang-link {
+    margin: 0 0.5rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.lang-link.active {
+    background-color: #0366d6;
+    color: white;
+}
+
+.lang-link:hover:not(.active) {
+    background-color: #f6f8fa;
+    text-decoration: none;
+}
