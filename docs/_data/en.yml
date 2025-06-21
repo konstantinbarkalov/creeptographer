@@ -12,17 +12,6 @@ header:
   tagline: "Short story about stepping out of the frame, framed into another story."
   quote: "— You lose a lot of light on the long end of that lens. (The Girl)"
 
-production_package:
-  title: "Production Package"
-  sections:
-    logline: "Logline"
-    synopsis: "Synopsis"
-    treatment: "Treatment"
-  content:
-    logline: "In an attempt to expose a street photographer, a young woman reviews his footage and becomes trapped by his gaze, where her reality is rewritten into a beautiful yet disturbing story from which she must escape to ultimately bring him to justice."
-    synopsis: "A street photographer in Phuket, captivated by a woman he encounters by chance, makes her the central subject of his work. His artistic admiration escalates into obsessive surveillance, and after a series of strange encounters, their confrontation culminates in a face-to-face meeting. The woman, having secured the support of hotel security, first engages him in a psychological duel and then, exposing his hypocrisy, forcibly takes his memory card as evidence. His story ends not only with the loss of control over his \"art\" but with real-world consequences in the form of the approaching security guards."
-    treatment: "The screen shows a view from a handheld camera. A young woman stands with calm determination in her posture. Behind her are blurred silhouettes. She utters a short phrase, her hand enters the frame, and she confidently removes a memory card from the camera. A distinct click. The screen goes black."
-
 frames:
   - id: 1
     alt: "Creep to Grapher"
