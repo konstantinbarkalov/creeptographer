@@ -6,7 +6,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Path to _config.yml relative to the repo root
-const configPath = path.join(__dirname, '..', 'site', '_config.yml');
+const configPath = path.join(__dirname, '..', 'docs', '_config.yml');
 
 // Read the config file
 let configContent = fs.readFileSync(configPath, 'utf8');

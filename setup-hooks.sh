@@ -13,7 +13,7 @@ if [ $? -ne 0 ]; then
     echo "Error updating version information"
     exit 1
 fi
-git add site/_config.yml
+git add docs/_config.yml
 EOF
 
 # Make the hook executable

@@ -4,12 +4,12 @@ This repository contains the Creeptographer project - a multilingual website for
 
 ## Repository Structure
 
-- `site/` - Contains the Jekyll-based website that is deployed via GitHub Pages
-  - `site/en/`, `site/ru/`, `site/th/` - Language-specific content
-  - `site/_includes/` - Reusable components and content fragments
-  - `site/_layouts/` - Page templates
-  - `site/css/` - Stylesheets
-  - `site/img/` - Images and media files
+- `docs/` - Contains the Jekyll-based website that is deployed via GitHub Pages
+  - `docs/en/`, `docs/ru/`, `docs/th/` - Language-specific content
+  - `docs/_includes/` - Reusable components and content fragments
+  - `docs/_layouts/` - Page templates
+  - `docs/css/` - Stylesheets
+  - `docs/img/` - Images and media files
 - `scripts/` - Contains utility scripts for version management
 - `VERSION-MANAGEMENT.md` - Documentation for the version management system
 - `setup-hooks.bat` & `setup-hooks.sh` - Scripts to install Git hooks for automated version management
@@ -32,13 +32,13 @@ To set up the automatic version updating:
 
 ## GitHub Pages Configuration
 
-The site is published using GitHub Pages from the `/site` subfolder and can be accessed at:
+The site is published using GitHub Pages from the `/docs` folder and can be accessed at:
 https://konstantinbarkalov.github.io/creeptographer/
 
-To configure GitHub Pages to use the `site` folder:
+To configure GitHub Pages to use the `docs` folder:
 1. Go to your GitHub repository settings
 2. Navigate to the "Pages" section
 3. Under "Source", select "Deploy from a branch"
 4. Select your main branch (e.g., "main")
-5. Select the "/site" folder from the dropdown
+5. Select the "/docs" folder from the dropdown
 6. Click "Save"

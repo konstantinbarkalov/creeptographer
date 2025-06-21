@@ -3,9 +3,9 @@
 Thumbs.db
 
 # Ignore Jekyll build directory
-site/_site/
-site/.jekyll-cache/
-site/.jekyll-metadata
+docs/_site/
+docs/.jekyll-cache/
+docs/.jekyll-metadata
 
 # Node modules (if any)
 node_modules/

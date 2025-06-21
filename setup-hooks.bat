@@ -12,7 +12,7 @@ echo if [ $? -ne 0 ]; then >> .git\hooks\pre-commit
 echo     echo "Error updating version information" >> .git\hooks\pre-commit
 echo     exit 1 >> .git\hooks\pre-commit
 echo fi >> .git\hooks\pre-commit
-echo git add site/_config.yml >> .git\hooks\pre-commit
+echo git add docs/_config.yml >> .git\hooks\pre-commit
 
 REM Make the hook executable
 echo Making hook executable...

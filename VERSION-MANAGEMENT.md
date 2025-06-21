@@ -1,10 +1,10 @@
 # Version Auto-Update System
 
-This repository includes an automatic version management system that updates the version number and the "last updated" date in your `site/_config.yml` file.
+This repository includes an automatic version management system that updates the version number and the "last updated" date in your `docs/_config.yml` file.
 
 ## Repository Structure
 
-- `/site` - Contains the actual Jekyll website files
+- `/docs` - Contains the actual Jekyll website files (published via GitHub Pages)
 - `/scripts` - Contains utility scripts like version management
 - Root level - Contains documentation and setup files
 
