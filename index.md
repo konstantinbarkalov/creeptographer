@@ -5,6 +5,6 @@ title: Creeptographer
 
 {% include header.md %}
 
-{% include storyboard.html %}
+{% include project-presentation.html %}
 
 {% include production-package.md %}

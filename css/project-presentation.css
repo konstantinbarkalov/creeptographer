@@ -32,15 +32,3 @@ div.frameset > a > img.frame {
         flex: 0 1 100%;
     }
 }
-
-/* Production package styles */
-.production-package {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 1rem;
-    line-height: 1.6;
-}
-h2, h3 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-}
