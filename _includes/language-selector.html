@@ -1,6 +1,11 @@
 <div class="language-selector">
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-  {% for page in pages %}
-    <a href="{{ site.baseurl }}{{ page.url }}" class="lang-link {% if page.lang == site.active_lang %}active{% endif %}">{{ page.lang_name }}</a>
+  {% assign unique_langs = "" | split: "" %}
+  
+  {% for p in pages %}
+    {% unless unique_langs contains p.lang %}
+      {% assign unique_langs = unique_langs | push: p.lang %}
+      <a href="{{ site.baseurl }}{{ p.url }}" class="lang-link {% if p.lang == page.lang %}active{% endif %}">{{ p.lang_name }}</a>
+    {% endunless %}
   {% endfor %}
 </div>

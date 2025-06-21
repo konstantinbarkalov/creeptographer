@@ -1,7 +1,7 @@
 title: Creeptographer
 description: A movie with line yet to be written
-baseurl: ""
-url: ""
+baseurl: "/creeptographer"
+url: "https://konstantinbarkalov.github.io"
 
 # Build settings
 markdown: kramdown
