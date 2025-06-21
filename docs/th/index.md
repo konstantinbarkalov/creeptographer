@@ -6,8 +6,8 @@ lang: th
 lang_name: TH
 ---
 
-{% include th/header.md %}
+{% include header.md %}
 
-{% include th/project-presentation.html %}
+{% include project-presentation.html %}
 
-{% include th/production-package.md %}
+{% include production-package.html %}

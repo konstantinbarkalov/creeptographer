@@ -1,12 +1,19 @@
 <div class="project-presentation">
     <div class="storyboard">
         <div class="frameset">
-            <a href="{{ site.baseurl }}/img/brief_6_frames/fhd/1.jpg" target="_blank"><img class="frame" src="{{ site.baseurl }}/img/brief_6_frames/thumb/1.jpg" alt="Creep to Grapher"></a>
-            <a href="{{ site.baseurl }}/img/brief_6_frames/fhd/2.jpg" target="_blank"><img class="frame" src="{{ site.baseurl }}/img/brief_6_frames/thumb/2.jpg" alt="Creep to Grapher"></a>
-            <a href="{{ site.baseurl }}/img/brief_6_frames/fhd/3.jpg" target="_blank"><img class="frame" src="{{ site.baseurl }}/img/brief_6_frames/thumb/3.jpg" alt="Creep to Grapher"></a>
-            <a href="{{ site.baseurl }}/img/brief_6_frames/fhd/4.jpg" target="_blank"><img class="frame" src="{{ site.baseurl }}/img/brief_6_frames/thumb/4.jpg" alt="Creep to Grapher"></a>
-            <a href="{{ site.baseurl }}/img/brief_6_frames/fhd/5.jpg" target="_blank"><img class="frame" src="{{ site.baseurl }}/img/brief_6_frames/thumb/5.jpg" alt="Creep to Grapher"></a>
-            <a href="{{ site.baseurl }}/img/brief_6_frames/fhd/6.jpg" target="_blank"><img class="frame" src="{{ site.baseurl }}/img/brief_6_frames/thumb/6.jpg" alt="Creep to Grapher"></a>
+            {% for frame in site.data[page.lang].frames %}
+                <div class="frame-container">
+                    <a href="{{ site.baseurl }}/img/brief_6_frames/fhd/{{ frame.id }}.jpg" target="_blank" class="frame-link">
+                        <img class="frame" src="{{ site.baseurl }}/img/brief_6_frames/thumb/{{ frame.id }}.jpg" alt="{{ frame.alt }}">
+                        {% if frame.caption %}
+                            <div class="frame-caption">{{ frame.caption }}</div>
+                        {% endif %}
+                    </a>
+                    <div class="frame-overlay">
+                        <span class="view-fullsize">{{ site.data[page.lang].ui.view_fullsize }}</span>
+                    </div>
+                </div>
+            {% endfor %}
         </div>
     </div>
 </div>

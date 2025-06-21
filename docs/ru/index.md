@@ -6,8 +6,8 @@ lang: ru
 lang_name: RU
 ---
 
-{% include ru/header.md %}
+{% include header.md %}
 
-{% include ru/project-presentation.html %}
+{% include project-presentation.html %}
 
-{% include ru/production-package.md %}
+{% include production-package.html %}

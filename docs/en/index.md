@@ -6,8 +6,8 @@ lang: en
 lang_name: EN
 ---
 
-{% include en/header.md %}
+{% include header.md %}
 
-{% include en/project-presentation.html %}
+{% include project-presentation.html %}
 
-{% include en/production-package.md %}
+{% include production-package.html %}
