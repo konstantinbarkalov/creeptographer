@@ -1,19 +1,12 @@
-/* Storyboard styles */
+/* Storyboard styles with modern grid approach */
 div.frameset {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1.5rem;
     margin: 2rem 0;
 }
 div.frameset > a {
-    flex: 0 1 calc(33.333% - 1rem);
-    min-width: 250px;
-    transition: transform 0.3s ease;
     overflow: hidden;
-}
-div.frameset > a:hover {
-    transform: scale(1.03);
 }
 div.frameset > a > img.frame {
     width: 100%;
@@ -22,13 +15,4 @@ div.frameset > a > img.frame {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     display: block;
 }
-@media (max-width: 768px) {
-    div.frameset > a {
-        flex: 0 1 calc(50% - 1rem);
-    }
-}
-@media (max-width: 480px) {
-    div.frameset > a {
-        flex: 0 1 100%;
-    }
-}
+/* No media queries needed with CSS Grid auto-fit approach */
