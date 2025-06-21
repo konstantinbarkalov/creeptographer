@@ -1,0 +1,7 @@
+title: Creeptographer
+description: A movie with line yet to be written
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown

@@ -1,67 +1,4 @@
-<div class="storyboard">
-    <style>
-    div.frameset {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 1.5rem;
-        margin: 2rem 0;
-    }
-    div.frameset > a {
-        flex: 0 1 calc(33.333% - 1rem);
-        min-width: 250px;
-        transition: transform 0.3s ease;
-        overflow: hidden;
-    }
-    div.frameset > a:hover {
-        transform: scale(1.03);
-    }
-    div.frameset > a > img.frame {
-        width: 100%;
-        height: auto;
-        border-radius: 4px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        display: block;
-    }
-    @media (max-width: 768px) {
-        div.frameset > a {
-            flex: 0 1 calc(50% - 1rem);
-        }
-    }
-    @media (max-width: 480px) {
-        div.frameset > a {
-            flex: 0 1 100%;
-        }
-    }
-    </style>
-    <div class="frameset">
-        <a href="img/brief_6_frames/fhd/1.jpg" target="_blank"><img class="frame" src="img/brief_6_frames/1.jpg" alt="Creep to Grapher"></a>
-        <a href="img/brief_6_frames/fhd/2.jpg" target="_blank"><img class="frame" src="img/brief_6_frames/2.jpg" alt="Creep to Grapher"></a>
-        <a href="img/brief_6_frames/fhd/3.jpg" target="_blank"><img class="frame" src="img/brief_6_frames/3.jpg" alt="Creep to Grapher"></a>
-        <a href="img/brief_6_frames/fhd/4.jpg" target="_blank"><img class="frame" src="img/brief_6_frames/4.jpg" alt="Creep to Grapher"></a>
-        <a href="img/brief_6_frames/fhd/5.jpg" target="_blank"><img class="frame" src="img/brief_6_frames/5.jpg" alt="Creep to Grapher"></a>
-        <a href="img/brief_6_frames/fhd/6.jpg" target="_blank"><img class="frame" src="img/brief_6_frames/6.jpg" alt="Creep to Grapher"></a>
-    </div>
-</div>
-<style>
-.production-package {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 1rem;
-    line-height: 1.6;
-}
-h2, h3 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-}
-</style>
-
-<div class="production-package">
-
-WHY????
-
 ## Production Package
-
 
 ### 1. Logline
 In an attempt to expose a street photographer, a young woman reviews his footage and becomes trapped by his gaze, where her reality is rewritten into a beautiful yet disturbing story from which she must escape to ultimately bring him to justice.
@@ -83,4 +20,3 @@ Outside, he sets up his camera. Around the same time, the woman at the computer 
 The next scene completely blurs the line between art and invasion for her. The shot begins with a view of the night city from his window, then the camera slowly pans, as if accidentally finding a lit window opposite, with her inside. The footage is emphatically artistic, capturing her in a personal space not meant for others' eyes. A complex range of emotions appears on the face of the woman at the laptop. This is no longer suspicion, but the realization of a direct invasion. Her gaze becomes tense and cold.
 
 The silence after she leaves the final scene seems deafening. Left alone in the static frame of the camera, forgotten on a bench, the Cameraman finds solace in the only confidant he trusts—the lens. He picks up the camera, points it at himself, and his bewilderment gives way to a passionate confession about high art and his contempt for phoniness. Carried away by the flow of his own words, he begins to drift through the space, and the camera, following his unconscious movement toward her, finds the Woman again in the background. She is just standing there, observing this strange performance. He doesn't see her. His bubble of self-justification is burst by her single quiet but devastating phrase, exposing his hypocrisy. His confusion. Her final, cold demand. The final action—not a scream or a struggle, but the quiet, confident motion of her hand taking the memory card. For a split second, before the screen goes black, we see a single word on his t-shirt: CREEP.
-</div>

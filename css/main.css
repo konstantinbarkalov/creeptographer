@@ -1,0 +1,46 @@
+/* Storyboard styles */
+div.frameset {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+div.frameset > a {
+    flex: 0 1 calc(33.333% - 1rem);
+    min-width: 250px;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+div.frameset > a:hover {
+    transform: scale(1.03);
+}
+div.frameset > a > img.frame {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+@media (max-width: 768px) {
+    div.frameset > a {
+        flex: 0 1 calc(50% - 1rem);
+    }
+}
+@media (max-width: 480px) {
+    div.frameset > a {
+        flex: 0 1 100%;
+    }
+}
+
+/* Production package styles */
+.production-package {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+    line-height: 1.6;
+}
+h2, h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
