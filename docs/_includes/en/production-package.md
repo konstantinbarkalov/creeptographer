@@ -1,5 +1,3 @@
-# The begin
-
 ## Production Package
 
 ### 1. Logline
