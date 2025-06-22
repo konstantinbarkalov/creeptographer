@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Креептограф
+title: Creeptographer
 ref: home
 lang: ru
 lang_name: RU

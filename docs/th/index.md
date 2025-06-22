@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ครีปโตกราเฟอร์
+title: Creeptographer
 ref: home
 lang: th
 lang_name: TH
