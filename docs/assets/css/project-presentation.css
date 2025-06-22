@@ -29,15 +29,10 @@ div.frameset > div.frame-container > div.frame-overlay {
     height: 100%;
 }
 div.frameset > div.frame-container > div.frame-overlay > div.frame-overlay-hud {
-    display: inline-block;
-    font-family: monospace;
-    font-size: 16px;
-    line-height: 24px;
-    padding: 2px 4px;
-    margin: 32px;
-    color: white;
-    background: black;
+    display: flex;
 }
+
+
 div.frameset > div.frame-container > div.frame-overlay > div.frame-overlay-hud > div.frame-overlay-hud-datetime {
     display: inline-block;
     font-family: monospace;
