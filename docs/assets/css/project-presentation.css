@@ -6,11 +6,11 @@ div.frameset {
 }
 
 div.frameset > div.frame-container {
-
+    position: relative;
 }
 
 div.frameset > div.frame-container > a.frame {
-    position: relative;
+    color: white;
 }
 
 div.frameset > div.frame-container > a.frame > img.frame-image {
@@ -19,7 +19,6 @@ div.frameset > div.frame-container > a.frame > img.frame-image {
     border-radius: 4px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     display: block;
-    color: white;
 }
 
 div.frameset > div.frame-container > div.frame-overlay {
