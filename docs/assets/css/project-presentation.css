@@ -21,7 +21,7 @@ div.frameset > div.frame-container > a.frame > img.frame-image {
     display: block;
 }
 
-div.frameset > div.frame-container > a.frame > div.frame-overlay {
+div.frameset > div.frame-container > div.frame-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -29,7 +29,7 @@ div.frameset > div.frame-container > a.frame > div.frame-overlay {
     height: 100%;
 }
 
-div.frameset > div.frame-container > a.frame > div.frame-overlay > div.frame-overlay-datetime {
+div.frameset > div.frame-container > div.frame-overlay > div.frame-overlay-datetime {
     display: inline-block;
     font-family: monospace;
     font-size: 16px;
