@@ -31,17 +31,20 @@ if (versionMatch) {
     const patch = versionMatch[3];
     let build = versionMatch[4];
     
-    // If the build is a "incrementable" letter, increment it (a->b, etc.)
-    if (/^[a-yA-Y]$/.test(build)) {
-        build = String.fromCharCode(build.charCodeAt(0) + 1);
-    }
     // If the build is a number, increment it numerically
-    else if (/^[0-9]+$/.test(build)) {
+    if (/^[0-9]+$/.test(build)) {
         build = (parseInt(build) + 1).toString();
     }
-    // If the build is ends up with "unincrementable" character, append 'a' to the end of build text    
     else {
-        build += 'a';
+        lastChar = build[build.length - 1];
+        if (/^[a-yA-Y]$/.test(lastChar)) {
+            lastChar = String.fromCharCode(lastChar.charCodeAt(0) + 1);
+        }
+        // If the build is ends up with "unincrementable" character, append 'a' to the end of build text    
+        else {
+            lastChar += 'a';
+        }
+        build = build.slice(0, -1) + lastChar;
     }
 
     const newVersion = `${major}.${minor}.${patch}.${build}`;
