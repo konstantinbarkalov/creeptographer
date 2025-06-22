@@ -6,11 +6,11 @@ div.frameset {
 }
 
 div.frameset > div.frame-container {
-    position: relative;
+
 }
 
 div.frameset > div.frame-container > a.frame {
-    overflow: hidden;
+    position: relative;
 }
 
 div.frameset > div.frame-container > a.frame > img.frame-image {
