@@ -4,6 +4,7 @@ div.frameset {
     gap: 1.5rem;
     margin: 2rem 0;
 }
+
 div.frameset > div.frame-container {
     position: relative;
 }
@@ -11,6 +12,7 @@ div.frameset > div.frame-container {
 div.frameset > div.frame-container > a.frame {
     overflow: hidden;
 }
+
 div.frameset > div.frame-container > a.frame > img.frame-image {
     width: 100%;
     height: auto;
@@ -18,6 +20,7 @@ div.frameset > div.frame-container > a.frame > img.frame-image {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     display: block;
 }
+
 div.frameset > div.frame-container > a.frame > div.frame-overlay {
     position: absolute;
     top: 0;
@@ -25,6 +28,7 @@ div.frameset > div.frame-container > a.frame > div.frame-overlay {
     width: 100%;
     height: 100%;
 }
+
 div.frameset > div.frame-container > a.frame > div.frame-overlay > div.frame-overlay-datetime {
     display: inline-block;
     font-family: monospace;
@@ -33,4 +37,3 @@ div.frameset > div.frame-container > a.frame > div.frame-overlay > div.frame-ove
     padding: 2px 4px;
     margin: 32px;
 }
-
