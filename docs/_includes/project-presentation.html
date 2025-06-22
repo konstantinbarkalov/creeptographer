@@ -1,6 +1,6 @@
 <div class="project-presentation">
-    <div class="storyboard">
-        <div class="chapters">
+    <div class="hero">
+        <div class="hero-chapters">
             {% for frame in site.data[page.lang].frames %}                
                 <a class="chapter" href="{{ site.baseurl }}/assets/img/brief_6_frames/fhd/sixdraws_{{ frame.id }}.jpg" target="_blank" title="{{ site.data[page.lang].ui.view_fullsize }}">
                     <div class="chapter-frame">
@@ -15,5 +15,8 @@
                 </a>
             {% endfor %}
         </div>
+        <div class="hero-cite">
+            — {{ site.data[page.lang].header.quote }}:
+        </div>  
     </div>
 </div>

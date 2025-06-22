@@ -1,19 +1,23 @@
-div.chapters {
+div.hero {
+    background-color: #f1f1f1;
+}
+
+div.hero-chapters {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1.5rem;
     margin: 2rem 0;
 }
 
-div.chapters > a.chapter {
+a.chapter {
     color: white;
 }
 
-div.chapters > a.chapter > div.chapter-frame {
+div.chapter-frame {
     position: relative;
 }
 
-div.chapters > a.chapter > div.chapter-frame > img.chapter-frame-image {
+img.chapter-frame-image {
     width: 100%;
     height: auto;
     border-radius: 4px;
@@ -21,7 +25,7 @@ div.chapters > a.chapter > div.chapter-frame > img.chapter-frame-image {
     display: block;
 }
 
-div.chapters > a.chapter > div.chapter-frame > div.chapter-frame-overlay {
+div.chapter-frame-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -32,12 +36,12 @@ div.chapters > a.chapter > div.chapter-frame > div.chapter-frame-overlay {
     align-items: flex-end;
     justify-content: flex-end;
 }
-div.chapters > a.chapter > div.chapter-frame > div.chapter-frame-overlay > div.chapter-frame-overlay-hud {
+div.chapter-frame-overlay-hud {
     display: flex;
 }
 
 
-div.chapters > a.chapter > div.chapter-frame > div.chapter-frame-overlay > div.chapter-frame-overlay-hud > div.chapter-frame-overlay-hud-datetime {
+div.chapter-frame-overlay-hud-datetime {
     display: inline-block;
     font-family: monospace;
     font-size: 16px;
@@ -47,6 +51,6 @@ div.chapters > a.chapter > div.chapter-frame > div.chapter-frame-overlay > div.c
     color: white;
     background: black;
 }
-div.chapters > a.chapter > div.chapter-caption {
+div.chapter-caption {
     color: gray;
 }
