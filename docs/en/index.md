@@ -6,7 +6,7 @@ lang: en
 lang_name: EN
 ---
 
-{% include header.md %}
+{% include header.html %}
 
 {% include project-presentation.html %}
 
