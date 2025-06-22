@@ -8,9 +8,9 @@ ui:
   view_fullsize: "ดูขนาดเต็ม"
 
 header:
-  title: "ครีปโตกราเฟอร์ ภาพยนตร์ที่ยังไม่เขียนบทจบ"
-  tagline: "เรื่องราวสั้น ๆ เกี่ยวกับการก้าวออกจากกรอบ ถูกใส่กรอบเข้าไปในอีกเรื่องหนึ่ง"
-  quote: "— คุณสูญเสียแสงไปเยอะเมื่อใช้ปลายเลนส์ขนาดยาว (หญิงสาว)"
+  title: "Creeptographer"
+  tagline: "Short story about stepping out of the frame, framed into another story."
+  quote: "You lose a lot of light on the long end of that lens"
 
 frames:
   - id: 1

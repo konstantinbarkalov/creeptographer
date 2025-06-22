@@ -8,9 +8,9 @@ ui:
   view_fullsize: "View full size"
 
 header:
-  title: "CREEPTOGRAPHER. A movie with line yet to be written."
+  title: "Creeptographer"
   tagline: "Short story about stepping out of the frame, framed into another story."
-  quote: "— You lose a lot of light on the long end of that lens. (The Girl)"
+  quote: "You lose a lot of light on the long end of that lens"
 
 frames:
   - id: 1
