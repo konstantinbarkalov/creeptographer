@@ -6,7 +6,6 @@ div.chapters {
 }
 
 div.chapters > a.chapter {
-    position: relative;
     color: white;
 }
 
