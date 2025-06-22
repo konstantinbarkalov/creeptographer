@@ -43,3 +43,6 @@ div.chapters > a.chapter > div.chapter-frame > div.chapter-frame-overlay > div.c
     color: white;
     background: black;
 }
+div.chapters > a.chapter > div.chapter-caption {
+    color: gray;
+}
