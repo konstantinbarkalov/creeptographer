@@ -9,6 +9,6 @@
 {% capture production_package_content %}{% include en/production-package.md %}{% endcapture %}
 {% endcase %}
 
-<div class="production-package">
+<div class="production-package text-content">
 {{ production_package_content | markdownify }}
 </div>

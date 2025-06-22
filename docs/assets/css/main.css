@@ -1,0 +1,7 @@
+/* Production package styles */
+.text-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+    line-height: 1.6;
+}
