@@ -1,3 +1,4 @@
+<div class="production-package">
 {% case page.lang %}
 {% when 'en' %}
 {% include en/production-package.md %}
@@ -8,3 +9,4 @@
 {% else %}
 {% include en/production-package.md %}
 {% endcase %}
+</div>
