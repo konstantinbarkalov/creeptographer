@@ -10,6 +10,10 @@ div.chapters > a.chapter {
     color: white;
 }
 
+div.chapters > a.chapter > div.chapter-frame {
+    position: relative;
+}
+
 div.chapters > a.chapter > div.chapter-frame > img.chapter-frame-image {
     width: 100%;
     height: auto;
