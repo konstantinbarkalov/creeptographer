@@ -4,12 +4,12 @@ This repository contains the Creeptographer project - a multilingual website for
 
 ## Repository Structure
 
-- `docs/` - Contains the Jekyll-based website that is deployed via GitHub Pages
-  - `docs/en/`, `docs/ru/`, `docs/th/` - Language-specific content
+- `docs/` - Contains the Jekyll-based website that is deployed via GitHub Pages  - `docs/en/`, `docs/ru/`, `docs/th/` - Language-specific content
   - `docs/_includes/` - Reusable components and content fragments
   - `docs/_layouts/` - Page templates
-  - `docs/css/` - Stylesheets
-  - `docs/img/` - Images and media files
+  - `docs/assets/` - Contains all static assets
+    - `docs/assets/css/` - Stylesheets
+    - `docs/assets/img/` - Images and media files
 - `scripts/` - Contains utility scripts for version management
 - `VERSION-MANAGEMENT.md` - Documentation for the version management system
 - `setup-hooks.bat` & `setup-hooks.sh` - Scripts to install Git hooks for automated version management

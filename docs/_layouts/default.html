@@ -2,12 +2,13 @@
 <html lang="{{ page.lang | default: 'en' }}">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>        <link rel="stylesheet" href="{{ site.baseurl }}/css/github-markdown.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/production-package.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/project-presentation.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/language-selector.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/footer.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>{{ page.title }}</title>        
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/github-markdown.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/production-package.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/project-presentation.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/language-selector.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/footer.css">
     {% if page.lang == "th" %}
     <style>
         /* Optional Thai font stack */
@@ -17,10 +18,12 @@
     </style>
     {% endif %}
 </head>
-<body>    <main>
+<body>    
+    <main>
         {% include language-selector.html %}
         {{ content }}
-    </main>    <footer class="site-footer">
+    </main>
+    <footer class="site-footer">
         <div class="footer-content">
             <p class="version-info">
                 {{ site.data[page.lang].footer.version_text }}: {{ site.version }} | {{ site.data[page.lang].footer.last_updated_text }}: {{ site.last_updated }}

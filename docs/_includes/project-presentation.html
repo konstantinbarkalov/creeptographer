@@ -1,16 +1,16 @@
 <div class="project-presentation">
     <div class="storyboard">
         <div class="frameset">
-            {% for frame in site.data[page.lang].frames %}
+            {% for frame in site.data[page.lang].frames %}                
                 <div class="frame-container">
-                    <a href="{{ site.baseurl }}/img/brief_6_frames/fhd/{{ frame.id }}.jpg" target="_blank" class="frame-link">
-                        <img class="frame" src="{{ site.baseurl }}/img/brief_6_frames/thumb/{{ frame.id }}.jpg" alt="{{ frame.alt }}">
+                    <a class="frame" href="{{ site.baseurl }}/assets/img/brief_6_frames/fhd/{{ frame.id }}.jpg" target="_blank" title="{{ site.data[page.lang].ui.view_fullsize }}">
+                        <img class="frame-image" src="{{ site.baseurl }}/assets/img/brief_6_frames/thumb/{{ frame.id }}.jpg" alt="{{ frame.caption }}">
                         {% if frame.caption %}
                             <div class="frame-caption">{{ frame.caption }}</div>
                         {% endif %}
                     </a>
                     <div class="frame-overlay">
-                        <span class="view-fullsize">{{ site.data[page.lang].ui.view_fullsize }}</span>
+                        <span class="frame-overlay-datetime">{{ frame.datetime }}</span>
                     </div>
                 </div>
             {% endfor %}

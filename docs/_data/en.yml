@@ -8,29 +8,29 @@ ui:
   view_fullsize: "View full size"
 
 header:
-  title: "CREEPTOGRAPHER. A moovie with line yet to be written."
+  title: "CREEPTOGRAPHER. A movie with line yet to be written."
   tagline: "Short story about stepping out of the frame, framed into another story."
   quote: "— You lose a lot of light on the long end of that lens. (The Girl)"
 
 frames:
   - id: 1
-    alt: "Creep to Grapher"
     caption: "First scene - encounter"
+    datetime: "2025-06-22 15:19:24"
   - id: 2
-    alt: "Creep to Grapher"
     caption: "Following from distance"
+    datetime: "2025-06-22 17:02:02"
   - id: 3
-    alt: "Creep to Grapher"
     caption: "Hidden observation"
+    datetime: "2025-06-25 14:41:33"
   - id: 4
-    alt: "Creep to Grapher"
-    caption: "Direct confrontation"
+    caption: "Night window voyeur"
+    datetime: "2025-06-25 23:57:07"  
   - id: 5
-    alt: "Creep to Grapher"
-    caption: "Memory card seizure"
+    caption: "Dialogue"
+    datetime: "2025-06-26 10:12:10"
   - id: 6
-    alt: "Creep to Grapher"
     caption: "Final moment"
+    datetime: "2025-06-26 10:13:03"
 
 footer:
   version_text: "Version"

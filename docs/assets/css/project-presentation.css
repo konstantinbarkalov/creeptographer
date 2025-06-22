@@ -1,18 +1,16 @@
-/* Storyboard styles with modern grid approach */
 div.frameset {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1.5rem;
     margin: 2rem 0;
 }
-div.frameset > a {
+div.frameset > div.frame-container > a.frame {
     overflow: hidden;
 }
-div.frameset > a > img.frame {
+div.frameset > div.frame-container > a.frame > img.frame-image {
     width: 100%;
     height: auto;
     border-radius: 4px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     display: block;
 }
-/* No media queries needed with CSS Grid auto-fit approach */
