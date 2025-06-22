@@ -1,12 +1,14 @@
-<div class="production-package">
 {% case page.lang %}
 {% when 'en' %}
-{% include en/production-package.md %}
+{% capture production_package_content %}{% include en/production-package.md %}{% endcapture %}
 {% when 'ru' %}
-{% include ru/production-package.md %}
+{% capture production_package_content %}{% include ru/production-package.md %}{% endcapture %}
 {% when 'th' %}
-{% include th/production-package.md %}
+{% capture production_package_content %}{% include th/production-package.md %}{% endcapture %}
 {% else %}
-{% include en/production-package.md %}
+{% capture production_package_content %}{% include en/production-package.md %}{% endcapture %}
 {% endcase %}
+
+<div class="production-package-2">
+{{ production_package_content | markdownify }}
 </div>
