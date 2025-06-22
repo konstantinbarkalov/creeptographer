@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <title>{{ page.title }}</title>        
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/github-markdown.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/production-package.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/project-presentation.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/language-selector.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/header.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/footer.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/github-markdown.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/language-selector.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/project-presentation.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/production-package.css">
     {% if page.lang == "th" %}
     <style>
         /* Optional Thai font stack */
@@ -21,7 +22,7 @@
 </head>
 <body>    
     <main>
-        <div>(v{{ site.version }})</div>
+        <div class="dev-site-version">(v{{ site.version }})</div>
         {% include language-selector.html %}
         {{ content }}
     </main>
