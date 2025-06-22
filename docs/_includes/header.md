@@ -1,8 +1,6 @@
 {% capture production_package_content %}
-# {{ site.data[page.lang].header.title }} (v{{ site.version }})
-{{ site.data[page.lang].header.tagline }}
-
-> {{ site.data[page.lang].header.quote }}
+# {{ site.data[page.lang].header.title }}
+### {{ site.data[page.lang].header.tagline }}
 {% endcapture %}
 
 <div class="header text-content">
