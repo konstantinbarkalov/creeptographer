@@ -1,20 +1,17 @@
 <div class="project-presentation">
     <div class="storyboard">
-        <div class="frameset">
+        <div class="chapters">
             {% for frame in site.data[page.lang].frames %}                
-                <div class="frame-container">
-                    <a class="frame" href="{{ site.baseurl }}/assets/img/brief_6_frames/fhd/sixdraws_{{ frame.id }}.jpg" target="_blank" title="{{ site.data[page.lang].ui.view_fullsize }}">
-                        <img class="frame-image" src="{{ site.baseurl }}/assets/img/brief_6_frames/thumb/sixdraws_{{ frame.id }}.jpg" alt="{{ frame.caption }}">
-                        {% if frame.caption %}
-                            <div class="frame-caption">{{ frame.caption }}</div>
-                        {% endif %}
-                    </a>
-                    <div class="frame-overlay">
-                        <div class="frame-overlay-hud">
-                            <div class="frame-overlay-hud-datetime">▶ {{ frame.datetime }}</div>
+                <a class="chapter" href="{{ site.baseurl }}/assets/img/brief_6_frames/fhd/sixdraws_{{ frame.id }}.jpg" target="_blank" title="{{ site.data[page.lang].ui.view_fullsize }}">
+                    <div class="chapter-frame">
+                        <img class="chapter-frame-image" src="{{ site.baseurl }}/assets/img/brief_6_frames/thumb/sixdraws_{{ frame.id }}.jpg" alt="{{ frame.caption }}">
+                        <div class="chapter-frame-overlay">
+                            <div class="chapter-frame-overlay-hud">
+                                <div class="chapter-frame-overlay-hud-datetime">▶ {{ frame.datetime }}</div>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             {% endfor %}
         </div>
     </div>

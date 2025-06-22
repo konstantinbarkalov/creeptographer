@@ -1,19 +1,16 @@
-div.frameset {
+div.chapters {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1.5rem;
     margin: 2rem 0;
 }
 
-div.frameset > div.frame-container {
+div.chapters > a.chapter {
     position: relative;
-}
-
-div.frameset > div.frame-container > a.frame {
     color: white;
 }
 
-div.frameset > div.frame-container > a.frame > img.frame-image {
+div.chapters > a.chapter > div.chapter-frame > img.chapter-frame-image {
     width: 100%;
     height: auto;
     border-radius: 4px;
@@ -21,19 +18,19 @@ div.frameset > div.frame-container > a.frame > img.frame-image {
     display: block;
 }
 
-div.frameset > div.frame-container > div.frame-overlay {
+div.chapters > a.chapter > div.chapter-frame > div.chapter-frame-overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
 }
-div.frameset > div.frame-container > div.frame-overlay > div.frame-overlay-hud {
+div.chapters > a.chapter > div.chapter-frame > div.chapter-frame-overlay > div.chapter-frame-overlay-hud {
     display: flex;
 }
 
 
-div.frameset > div.frame-container > div.frame-overlay > div.frame-overlay-hud > div.frame-overlay-hud-datetime {
+div.chapters > a.chapter > div.chapter-frame > div.chapter-frame-overlay > div.chapter-frame-overlay-hud > div.chapter-frame-overlay-hud-datetime {
     display: inline-block;
     font-family: monospace;
     font-size: 16px;
