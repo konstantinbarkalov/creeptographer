@@ -27,6 +27,10 @@ div.chapters > a.chapter > div.chapter-frame > div.chapter-frame-overlay {
     left: 0;
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 div.chapters > a.chapter > div.chapter-frame > div.chapter-frame-overlay > div.chapter-frame-overlay-hud {
     display: flex;
