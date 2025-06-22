@@ -10,4 +10,4 @@ lang_name: EN
 
 {% include project-presentation.html %}
 
-{% include production-package.html %}
+{% include production-package.md %}
