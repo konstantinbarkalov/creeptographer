@@ -47,4 +47,7 @@ frames:
 footer:
   version_text: "Version"
   last_updated_text: "Last updated"
+
+moodboard:
+  title: "Visual References & Moodboard"
 ---

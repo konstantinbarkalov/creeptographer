@@ -47,4 +47,7 @@ frames:
 footer:
   version_text: "Версия"
   last_updated_text: "Последнее обновление"
+
+moodboard:
+  title: "Визуальные референсы и Мудборд"
 ---

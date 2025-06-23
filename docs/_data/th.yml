@@ -47,4 +47,7 @@ frames:
 footer:
   version_text: "เวอร์ชัน"
   last_updated_text: "อัปเดตล่าสุด"
+
+moodboard:
+  title: "ภาพอ้างอิงและมู้ดบอร์ด"
 ---

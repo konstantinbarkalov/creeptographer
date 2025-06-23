@@ -1,0 +1,15 @@
+<div id="moodboard" class="moodboard"></div>
+    <h2 class="moodboard-title">{{ site.data[page.lang].moodboard.title }}</h2>
+    <div class="moodboard-grid">
+        {% for image in site.data.moodboard.images %}
+            <div class="moodboard-item {% if image.featured %}featured{% endif %}">
+                <a href="{{ site.baseurl }}{{ image.url }}" target="_blank" class="moodboard-link">
+                    <img src="{{ site.baseurl }}{{ image.thumbnail }}" alt="{{ image.alt }}" class="moodboard-image">
+                    {% if image.caption %}
+                    <div class="moodboard-caption">{{ image.caption }}</div>
+                    {% endif %}
+                </a>
+            </div>
+        {% endfor %}
+    </div>
+</div>

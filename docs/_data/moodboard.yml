@@ -1,0 +1,65 @@
+# Moodboard images - shared across all languages
+images:
+  - url: /assets/img/brief_6_frames/fhd/sixdraws_1.jpg
+    thumbnail: /assets/img/brief_6_frames/thumb/sixdraws_1.jpg
+    alt: "Perspective View"
+    caption: "Downtown Phuket street scene"
+    featured: true
+
+  - url: /assets/img/brief_6_frames/fhd/sixdraws_2.jpg
+    thumbnail: /assets/img/brief_6_frames/thumb/sixdraws_2.jpg
+    alt: "Urban Setting"
+    caption: "Street life ambiance"
+
+  - url: /assets/img/brief_6_frames/fhd/sixdraws_3.jpg
+    thumbnail: /assets/img/brief_6_frames/thumb/sixdraws_3.jpg
+    alt: "Lighting Reference"
+    caption: "Natural lighting through windows"
+    featured: true
+
+  - url: /assets/img/brief_6_frames/fhd/sixdraws_4.jpg
+    thumbnail: /assets/img/brief_6_frames/thumb/sixdraws_4.jpg
+    alt: "Night Scene"
+    caption: "Evening mood color palette"
+
+  - url: /assets/img/brief_6_frames/fhd/sixdraws_5.jpg
+    thumbnail: /assets/img/brief_6_frames/thumb/sixdraws_5.jpg
+    alt: "Character Framing"
+    caption: "Character positioning"
+
+  - url: /assets/img/brief_6_frames/fhd/sixdraws_6.jpg
+    thumbnail: /assets/img/brief_6_frames/thumb/sixdraws_6.jpg
+    alt: "Closeup Detail"
+    caption: "Detailed expressions"
+
+  - url: /assets/img/brief_6_frames/fhd/sixframes_1.jpg
+    thumbnail: /assets/img/brief_6_frames/thumb/sixframes_1.jpg
+    alt: "Composition Style"
+    caption: "Street photography aesthetic"
+
+  - url: /assets/img/brief_6_frames/fhd/sixframes_2.jpg
+    thumbnail: /assets/img/brief_6_frames/thumb/sixframes_2.jpg
+    alt: "Camera Technique"
+    caption: "Handheld camera movement"
+    featured: true
+
+  - url: /assets/img/brief_6_frames/fhd/sixframes_3.jpg
+    thumbnail: /assets/img/brief_6_frames/thumb/sixframes_3.jpg
+    alt: "Warm Lighting"
+    caption: "Golden hour lighting reference"
+
+  - url: /assets/img/brief_6_frames/fhd/sixframes_4.jpg
+    thumbnail: /assets/img/brief_6_frames/thumb/sixframes_4.jpg
+    alt: "Cool Tones"
+    caption: "Evening blue tone reference"
+
+  - url: /assets/img/brief_6_frames/fhd/sixframes_5.jpg
+    thumbnail: /assets/img/brief_6_frames/thumb/sixframes_5.jpg
+    alt: "Texture Detail"
+    caption: "Surface texture details"
+
+  - url: /assets/img/brief_6_frames/fhd/sixframes_6.jpg
+    thumbnail: /assets/img/brief_6_frames/thumb/sixframes_6.jpg
+    alt: "Dramatic Angle"
+    caption: "Low angle dramatic shot"
+    featured: true
