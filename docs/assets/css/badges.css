@@ -29,14 +29,14 @@
     padding: 0.3rem 0.5rem 0.3rem 0.75rem;
 }
 
-.badge-aspect-ratio {
+.badge.badge-aspect-ratio {
     background-color: #28a745; /* green */
 }
 
-.badge-duration {
+.badge.badge-duration {
     background-color: #dc3545; /* red */
 }
 
-.badge-format {
+.badge.badge-format {
     background-color: #6f42c1; /* purple */
 }
