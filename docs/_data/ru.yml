@@ -9,8 +9,12 @@ ui:
 
 header:
   title: "Creeptographer"
-  tagline: "Короткая история о выходе за рамки, в рамках другой истории."
-  quote: "You lose a lot of light on the long end of that lens"
+  tagline: 
+    - id: 1
+      text: "Короткая история о выходе за рамки, "
+    - id: 2
+      text: "в рамках другой истории."
+  quote: "Вам нехватает света на дальнем конце объектива"
 
 frames:
   - id: 1
