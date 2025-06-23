@@ -8,7 +8,7 @@ ui:
   view_fullsize: "Смотреть в полном размере"
 
 header:
-  title: "Creeptographer"
+  title: "Photocreep"
   tagline: 
     - "Короткая история о выходе за рамки, "
     - "в рамках другой истории."

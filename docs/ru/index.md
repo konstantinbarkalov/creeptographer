@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Creeptographer
+title: Photocreep
 ref: home
 lang: ru
 lang_name: RU

@@ -1,6 +1,6 @@
-# Creeptographer Project
+# Photocreep Project
 
-This repository contains the Creeptographer project - a multilingual website for a short film project.
+This repository contains the Photocreep project - a multilingual website for a short film project.
 
 ## Repository Structure
 
@@ -33,7 +33,7 @@ To set up the automatic version updating:
 ## GitHub Pages Configuration
 
 The site is published using GitHub Pages from the `/docs` folder and can be accessed at:
-https://konstantinbarkalov.github.io/creeptographer/
+https://konstantinbarkalov.github.io/photocreep/
 
 To configure GitHub Pages to use the `docs` folder:
 1. Go to your GitHub repository settings

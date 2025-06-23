@@ -8,7 +8,7 @@ ui:
   view_fullsize: "ดูขนาดเต็ม"
 
 header:
-  title: "Creeptographer"
+  title: "Photocreep"
   tagline: 
     - "Short story about stepping out of the frame, "
     - "framed into another story."

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Creeptographer
+title: Photocreep
 redirect: true
 ---
 
