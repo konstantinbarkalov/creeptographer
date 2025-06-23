@@ -16,22 +16,22 @@ header:
 
 frames:
   - id: 1
-    caption: "First scene - encounter"
+    caption: "Spark"
     datetime: "2025-06-22 15:19:24"
   - id: 2
-    caption: "Following from distance"
+    caption: "Awareness"
     datetime: "2025-06-22 17:02:02"
   - id: 3
-    caption: "Hidden observation"
+    caption: "Encounter"
     datetime: "2025-06-25 14:41:33"
   - id: 4
-    caption: "Night window voyeur"
+    caption: "Vulnerability"
     datetime: "2025-06-25 23:57:07"  
   - id: 5
-    caption: "Dialogue"
+    caption: "Superiority"
     datetime: "2025-06-26 10:12:10"
   - id: 6
-    caption: "Final moment"
+    caption: "Meta"
     datetime: "2025-06-26 10:13:03"
 
 footer:
