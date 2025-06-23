@@ -13,3 +13,14 @@
     font-family: serif;
     margin: 0;
 }
+.site-header div.nav ul {
+    list-style: inside;
+    text-transform: uppercase;
+}
+.site-header div.nav ul li {
+    margin: 0 1rem;
+}
+.site-header div.nav ul li a {
+    color: #0366d6;
+    text-decoration: none;
+}
