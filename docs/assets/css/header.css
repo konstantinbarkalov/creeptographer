@@ -4,21 +4,31 @@
     font-weight: 300;
     text-transform: uppercase;
     margin: 0;
-    margin-bottom: 2rem;
+    padding: 0;
 }
 .site-header h2 {
-    font-size: min(1.3rem, 5vw);
+    font-size: min(1.3rem, 4.5vw);
     font-weight: normal;
     font-style: italic;
     font-family: serif;
+    padding: 0;
     margin: 0;
 }
+.site-header hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #e5e5e5;
+    margin: 1rem 0;
+    padding: 0;
+}
+
 .site-header div.nav ul {
     list-style: inside;
     text-transform: uppercase;
 }
 .site-header div.nav ul li {
-    margin: 0 1rem;
+    margin: 0;
 }
 .site-header div.nav ul li a {
     color: #0366d6;
