@@ -10,4 +10,8 @@ lang_name: RU
 
 {% include project-presentation.html %}
 
+<div id="artistic-treatment"></div>
+{% include artistic-treatment.md %}
+
+<div id="production-package"></div>
 {% include production-package.md %}
