@@ -10,10 +10,8 @@ ui:
 header:
   title: "Creeptographer"
   tagline: 
-    - id: 1
-      text: "Short story about stepping out of the frame, "
-    - id: 2
-      text: "framed into another story."
+    - "Short story about stepping out of the frame, "
+    - "framed into another story."
   quote: "You lose a lot of light on the long end of the lens"
 
 frames:
