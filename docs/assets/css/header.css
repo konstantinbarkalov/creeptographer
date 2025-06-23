@@ -26,6 +26,8 @@
 .site-header div.nav ul {
     list-style: inside;
     text-transform: uppercase;
+    padding: 0;
+    margin: 0;
 }
 .site-header div.nav ul li {
     margin: 0;
