@@ -12,7 +12,16 @@ header:
   tagline: 
     - "Short story about stepping out of the frame, "
     - "framed into another story."
-  quote: "You lose a lot of light on the long end of the lens"
+  quote: "You lose a lot of light on the long end of the lens"  badges:
+    aspect_ratio:
+      key: "Aspect Ratio"
+      value: "16:9"
+    duration:
+      key: "Duration"
+      value: "2-4 min"
+    format:
+      key: "Format"
+      value: "Instagram Reels, YouTube Shorts, TikTok"
 
 frames:
   - id: 1

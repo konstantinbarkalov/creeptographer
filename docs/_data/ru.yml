@@ -12,7 +12,16 @@ header:
   tagline: 
     - "Короткая история о выходе за рамки, "
     - "в рамках другой истории."
-  quote: "Вам нехватает света на дальнем конце объектива"
+  quote: "Вам нехватает света на дальнем конце объектива"  badges:
+    aspect_ratio:
+      key: "Соотношение сторон"
+      value: "16:9"
+    duration:
+      key: "Длительность"
+      value: "2-4 мин"
+    format:
+      key: "Формат"
+      value: "Instagram Reels, YouTube Shorts, TikTok"
 
 frames:
   - id: 1

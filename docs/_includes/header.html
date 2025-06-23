@@ -4,7 +4,20 @@
         <h2>
             {{ site.data[page.lang].header.tagline[0] }}<br/>
             {{ site.data[page.lang].header.tagline[1] }}
-        </h2>
+        </h2>        <div class="badges-container">
+            <div class="badge badge-aspect-ratio">
+                <span class="badge-key">{{ site.data[page.lang].header.badges.aspect_ratio.key | default: "Aspect Ratio" }}</span>
+                <span class="badge-value">{{ site.data[page.lang].header.badges.aspect_ratio.value | default: "16:9" }}</span>
+            </div>
+            <div class="badge badge-duration">
+                <span class="badge-key">{{ site.data[page.lang].header.badges.duration.key | default: "Duration" }}</span>
+                <span class="badge-value">{{ site.data[page.lang].header.badges.duration.value | default: "2-4 min" }}</span>
+            </div>
+            <div class="badge badge-format">
+                <span class="badge-key">{{ site.data[page.lang].header.badges.format.key | default: "Format" }}</span>
+                <span class="badge-value">{{ site.data[page.lang].header.badges.format.value | default: "Instagram Reels, YouTube Shorts, TikTok" }}</span>
+            </div>
+        </div>
     </div>    
     <hr/>
     <div class="nav">

@@ -1,0 +1,42 @@
+.badges-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.badge {
+    display: flex;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #0366d6;
+    overflow: hidden;
+}
+
+.badge-key {
+    display: inline-block;
+    padding: 0.3rem 0.5rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.badge-value {
+    display: inline-block;
+    padding: 0.3rem 0.5rem;
+}
+
+.badge-aspect-ratio {
+    background-color: #28a745; /* green */
+}
+
+.badge-duration {
+    background-color: #dc3545; /* red */
+}
+
+.badge-format {
+    background-color: #6f42c1; /* purple */
+}

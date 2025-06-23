@@ -12,7 +12,16 @@ header:
   tagline: 
     - "Short story about stepping out of the frame, "
     - "framed into another story."
-  quote: "You lose a lot of light on the long end of the lens"
+  quote: "You lose a lot of light on the long end of the lens"  badges:
+    aspect_ratio:
+      key: "อัตราส่วนภาพ"
+      value: "16:9"
+    duration:
+      key: "ระยะเวลา"
+      value: "2-4 นาที"
+    format:
+      key: "รูปแบบ"
+      value: "Instagram Reels, YouTube Shorts, TikTok"
 
 frames:
   - id: 1
